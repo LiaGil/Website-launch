@@ -194,6 +194,38 @@ text-align:justify;
   font-weight:100;
 }
 
+.conteneur-miniature-one:hover{
+  box-shadow:0 0 20px 1px rgba(0,0,0,0.75);
+  transition:.4s;
+}
+
+.container_port {
+  margin: 2rem auto;
+}
+
+.gallery {
+  display: grid;
+  max-width: 100%;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.gallery-item {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: all .3s;
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 #conteneur-contact{
   padding:60px 0px;
   background:url(https://www.lowes.ca/-/media/lowes/images/ideas-how-tos/ideas%20and%20inspiration/before%20and%20after%20classic%20white%20annuals%20and%20perennials/ct18-image5-1015x571.jpg?h=571&w=1015&la=en-CA&hash=5FF055F97ACF67A8F40F0AB999301C362F22C7C2) fixed 100% no-repeat;
