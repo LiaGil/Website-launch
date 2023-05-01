@@ -103,6 +103,7 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
 }
 .profil-text p{
 padding-bottom:75px;
+padding-right:20px;
 text-align:justify;
 }
 .profil-text a{
@@ -235,13 +236,4 @@ text-align:justify;
   color:#DDD;
   text-decoration:none;
   transition:0.4s;
-}
-
-
-@media screen and (max-width: 960px){
-  
- .profil-text p{
- padding-right:75px;
- text-align:justify;
- }
 }
