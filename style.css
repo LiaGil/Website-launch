@@ -236,3 +236,13 @@ text-align:justify;
   text-decoration:none;
   transition:0.4s;
 }
+
+
+@media screen and (max-width: 960px){
+  
+  .about{
+  max-width:960px;
+  width:90%;
+  margin:auto;
+ }
+}
