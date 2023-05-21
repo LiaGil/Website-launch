@@ -17,8 +17,6 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
   width:100%;
 }
 
-#conteneur-menu{
-{
 .menu{
   width:100%;
   background-color:white;
@@ -88,11 +86,13 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
 }
 .profil-photo img{
   width:90%;
+  margin-left: 20px;
 }
 .profil-text{
   width:50%;
   float:left;
   position:relative;
+  font-size: 19px;
 }
 .profil-text h2{
   padding-bottom:15px;
@@ -199,9 +199,6 @@ text-align:justify;
   transition:.4s;
 }
 
-* {
-    box-sizing: border-box;
-}
 body {
     background-color: #ecf0f1;
 }
@@ -313,12 +310,11 @@ body {
 }
 
 
-
 @media (max-width: 960px) {
     .profil-photo {
         margin-left:20px;
     }
-    .profil-text p {
+    .profil-text {
         font-size: 22px;
     }  
 }
@@ -339,7 +335,7 @@ body {
     .profil-photo {
         margin-left:20px;
     }
-    .profil-text p {
+    .profil-text {
         font-size: 22px;
     }  
 }
@@ -356,10 +352,8 @@ body {
     .profil-photo {
         margin-left:20px;
     }
-    .profil-text p {
+    .profil-text {
         font-size: 22px;
     }
 }
 
-#gallery-item {
-  
