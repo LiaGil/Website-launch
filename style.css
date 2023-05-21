@@ -342,8 +342,6 @@ text-align:justify;
         font-size: 22px;
     }  
 }
-
-@media (max-width: 720px) {
     .gallery-container {
         width: 100%;
       display: block;
@@ -353,6 +351,9 @@ text-align:justify;
         flex-basis: 49.80%;
         margin-bottom: 3px;
     }
+
+@media (max-width: 720px) {
+
     .lightbox-content {
         width: 80%;
         height: 60%;
