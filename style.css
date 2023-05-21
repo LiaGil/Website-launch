@@ -335,13 +335,6 @@ text-align:justify;
 
   
 @media (max-width: 960px) {
-    .profil-photo {
-        margin-left:20px;
-    }
-    .profil-text {
-        font-size: 22px;
-    }  
-}
     .gallery-container {
         display: block;
         position: relative;
@@ -353,7 +346,8 @@ text-align:justify;
     .gallery-item {
         flex-basis: 49.80%;
         margin-bottom: 3px;
-    }
+    } 
+}
 
 @media (max-width: 720px) {
 
