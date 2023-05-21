@@ -359,7 +359,7 @@ text-align:justify;
         font-size: 22px;
     }    
   .gallery-container {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
