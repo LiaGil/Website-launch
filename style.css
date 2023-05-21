@@ -343,8 +343,11 @@ text-align:justify;
     }  
 }
     .gallery-container {
-        width: 100%;
-      display: block;
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        transform: none;
     }
   
     .gallery-item {
