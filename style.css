@@ -369,14 +369,13 @@ text-align:justify;
         margin: 0 auto;
         padding: 10px;
      }
-
    .gallery-item {
         flex-basis: 100%;
         margin-bottom: 6px;
         opacity: .85;
         cursor: pointer;
         position: relative;
-     }
+     }  
    .menu a{
          font-size: 30px;
   }
@@ -400,8 +399,5 @@ text-align:justify;
     .profil-text {
         font-size: 22px;
     }
-     .footer a{
-         font-size: 25px;
-  }
 }
 
