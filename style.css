@@ -244,7 +244,6 @@ text-align:justify;
     font-size: .8em;
 }
 
-
 .lightbox {
     position: fixed;
     display: none;
@@ -306,25 +305,35 @@ text-align:justify;
   color:#1F2021;
 }
 
-#conteneur-footer{
-  padding:10px 0px;
-  background-color:#000;
-  color:#FFF;
-  text-align:center;
+#conteneur-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
 }
-.footer a{
-  color:#FFF;
-  text-decoration:none;
-  padding-top:50px;
-  transition:0.4s;
+
+.footer a {
+  color: #FFF;
+  text-decoration: none;
+  padding-top: 50px;
+  transition: 0.4s;
 }
-.footer a:hover{
-  color:#DDD;
-  text-decoration:none;
-  transition:0.4s;
+
+.footer a:hover {
+  color: #DDD;
+  text-decoration: none;
+  transition: 0.4s;
 }
 
 
+@media (max-width: 1425px) {
+  
+  
+  
 @media (max-width: 960px) {
     .profil-photo {
         margin-left:20px;
