@@ -332,7 +332,25 @@ text-align:justify;
 
 @media (max-width: 1425px) {
   
-  
+  .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Modifier la justification pour centrer les éléments */
+  align-items: flex-start; /* Aligner les éléments en haut */
+  background-color: #fff;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.gallery-item {
+  flex-basis: 100%; /* Modifier la largeur pour occuper toute la largeur disponible */
+  margin-bottom: 6px;
+  opacity: .85;
+  cursor: pointer;
+  position: relative;
+}
   
 @media (max-width: 960px) {
     .profil-photo {
