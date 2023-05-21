@@ -342,7 +342,9 @@ text-align:justify;
 @media (max-width: 720px) {
     .gallery-container {
         width: 100%;
+      display: block;
     }
+  
     .gallery-item {
         flex-basis: 49.80%;
         margin-bottom: 3px;
@@ -358,25 +360,7 @@ text-align:justify;
     .profil-text {
         font-size: 22px;
     }    
-  .gallery-container {
-        display: block;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-        background-color: #fff;
-        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-        width: 80%;
-        margin: 0 auto;
-        padding: 10px;
-     }
-
-   .gallery-item {
-        flex-basis: 100%; 
-        margin-bottom: 6px;
-        opacity: .85;
-        cursor: pointer;
-        position: relative;
-     }
+  
    .menu a{
          font-size: 30px;
   }
