@@ -19,7 +19,6 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
 
 #conteneur-menu{
 
-}
 .menu{
   width:100%;
   background-color:white;
@@ -200,9 +199,6 @@ text-align:justify;
   transition:.4s;
 }
 
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -280,61 +276,6 @@ body {
     opacity: .8;
 }
 
-
-
-@media (max-width: 960px) {
-    .profil-photo {
-        margin-left:20px;
-    }
-    .profil-text p {
-        font-size: 22px;
-    }  
-}
-
-
-
-@media (max-width: 720px) {
-    .gallery-container {
-        width: 100%;
-    }
-    .gallery-item {
-        flex-basis: 49.80%;
-        margin-bottom: 3px;
-    }
-    .lightbox-content {
-        width: 80%;
-        height: 60%;
-        margin: 15% auto;
-    }
-    .profil-photo {
-        margin-left:20px;
-    }
-    .profil-text p {
-        font-size: 22px;
-    }  
-}
-
-
-@media (max-width: 540px) {
-    .gallery-item {
-        flex-basis: 100%;
-        margin-bottom: 1px;
-    }
-    .lightbox-content {
-        width: 90%;
-        margin: 20% auto;
-    }
-    .profil-photo {
-        margin-left:20px;
-    }
-    .profil-text p {
-        font-size: 22px;
-    }
-}
-
-#gallery-container
-
-
 #conteneur-contact{
   padding:60px 0px;
   background:url(https://www.lowes.ca/-/media/lowes/images/ideas-how-tos/ideas%20and%20inspiration/before%20and%20after%20classic%20white%20annuals%20and%20perennials/ct18-image5-1015x571.jpg?h=571&w=1015&la=en-CA&hash=5FF055F97ACF67A8F40F0AB999301C362F22C7C2) fixed 100% no-repeat;
@@ -370,3 +311,54 @@ body {
   text-decoration:none;
   transition:0.4s;
 }
+
+
+
+@media (max-width: 960px) {
+    .profil-photo {
+        margin-left:20px;
+    }
+    .profil-text p {
+        font-size: 22px;
+    }  
+}
+
+@media (max-width: 720px) {
+    .gallery-container {
+        width: 100%;
+    }
+    .gallery-item {
+        flex-basis: 49.80%;
+        margin-bottom: 3px;
+    }
+    .lightbox-content {
+        width: 80%;
+        height: 60%;
+        margin: 15% auto;
+    }
+    .profil-photo {
+        margin-left:20px;
+    }
+    .profil-text p {
+        font-size: 22px;
+    }  
+}
+
+@media (max-width: 540px) {
+    .gallery-item {
+        flex-basis: 100%;
+        margin-bottom: 1px;
+    }
+    .lightbox-content {
+        width: 90%;
+        margin: 20% auto;
+    }
+    .profil-photo {
+        margin-left:20px;
+    }
+    .profil-text p {
+        font-size: 22px;
+    }
+}
+
+#gallery-container
