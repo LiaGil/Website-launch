@@ -283,10 +283,10 @@ body {
 
 
 @media (max-width: 960px) {
-    .profil-photo{
-        margi-leftn:20px;
+    .profil-photo {
+        margin-left:20px;
     }
-    .profil-text p{
+    .profil-text p {
         font-size: 22px;
     }  
 }
@@ -306,10 +306,10 @@ body {
         height: 60%;
         margin: 15% auto;
     }
-    .profil-photo{
-        margi-leftn:20px;
+    .profil-photo {
+        margin-left:20px;
     }
-    .profil-text p{
+    .profil-text p {
         font-size: 22px;
     }  
 }
@@ -324,14 +324,15 @@ body {
         width: 90%;
         margin: 20% auto;
     }
-    .profil-photo{
-        margi-leftn:20px;
+    .profil-photo {
+        margin-left:20px;
     }
-    .profil-text p{
+    .profil-text p {
         font-size: 22px;
     }
 }
 
+#gallery-container
 
 
 #conteneur-contact{
