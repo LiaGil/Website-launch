@@ -1,0 +1,22 @@
+#conteneur-home{
+  width:100%;
+  background:url(https://images.pexels.com/photos/2832767/pexels-photo-2832767.jpeg) fixed 100% no-repeat;
+  background-size:cover;
+  padding:159.5px 0px 100px 0px;
+  text-align:center;
+}
+.home{
+  width:100%;
+}
+.home h1{
+  font-weight:100;
+  font-size:50px;
+  color:#EEE;
+  padding:0px 0px 5px 0px;
+}
+.home h2{
+  font-weight:100;
+  font-size:30px;
+  color:#DDD;
+  text-transform:uppercase;
+}
