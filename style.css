@@ -16,7 +16,6 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
 #conteneur-id{
   width:100%;
 }
-
 .menu{
   width:100%;
   background-color:white;
@@ -48,7 +47,6 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
   background-color:#FFF;
   transition:0.4s;
 }
-
 #conteneur-home{
   width:100%;
   background:url(https://images.pexels.com/photos/2832767/pexels-photo-2832767.jpeg) fixed 100% no-repeat;
@@ -164,7 +162,8 @@ text-align:justify;
   width:100%;
   height:250px;
 }
-.oneport{      background:url(https://64.media.tumblr.com/56dfc513aeccd546772526b86c486cf1/tumblr_oywgvka4hk1qly6cno1_1280.pnj);
+.oneport{      
+  background:url(https://64.media.tumblr.com/56dfc513aeccd546772526b86c486cf1/tumblr_oywgvka4hk1qly6cno1_1280.pnj);
   background-size:cover;
   background-position:center;
 }
@@ -193,12 +192,10 @@ text-align:justify;
   line-height:20px;
   font-weight:100;
 }
-
 .conteneur-miniature-one:hover{
   box-shadow:0 0 20px 1px rgba(0,0,0,0.75);
   transition:.4s;
 }
-
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -214,71 +211,67 @@ text-align:justify;
     transform: translate(-50%, -50%); 
 }
 .gallery-item {
-    flex-basis: 32.7%;
-    margin-bottom: 6px;
-    opacity: .85;
-    cursor: pointer;
-    position: relative;
+   flex-basis: 32.7%;
+   margin-bottom: 6px;
+   opacity: .85;
+   cursor: pointer;
+   position: relative;
 }
 .gallery-item:hover {
-    opacity: 1;
+   opacity: 1;
 }
-
 .gallery-item:hover .white-text {
-  display: block;
+   display: block;
 }
-
 .white-text {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 18px;
-  text-align: center;
+   display: none;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 18px;
+   text-align: center;
 }
-
 .gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
 }
 .gallery-content {
-    font-size: .8em;
+   font-size: .8em;
 }
-
 .lightbox {
-    position: fixed;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;              
-    overflow: auto;
-    top: 0;
-    left: 0;
+   position: fixed;
+   display: none;
+   background-color: rgba(0, 0, 0, 0.8);
+   width: 100%;
+   height: 100%;              
+   overflow: auto;
+   top: 0;
+   left: 0;
 }
 .lightbox-content {
-    position: relative;
-    width: 70%;
-    height: 70%;
-    margin: 5% auto;
+   position: relative;
+   width: 70%; 
+   height: 70%;
+   margin: 5% auto;
 }
 .lightbox-content img {
-    border-radius: 7px;
-    box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+   border-radius: 7px;
+   box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
 }
 .lightbox-prev,
 .lightbox-next {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 7px;
-    top: 45%;
-    cursor: pointer;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: #fff;
+   padding: 7px;
+   top: 45%;
+   cursor: pointer;
 }
 .lightbox-prev {
     left: 0;
@@ -290,25 +283,23 @@ text-align:justify;
 .lightbox-next:hover {
     opacity: .8;
 }
-
 #conteneur-contact{
-  padding:60px 0px;
-  background:url(https://www.lowes.ca/-/media/lowes/images/ideas-how-tos/ideas%20and%20inspiration/before%20and%20after%20classic%20white%20annuals%20and%20perennials/ct18-image5-1015x571.jpg?h=571&w=1015&la=en-CA&hash=5FF055F97ACF67A8F40F0AB999301C362F22C7C2) fixed 100% no-repeat;
-  background-size:cover;
+   padding:60px 0px;
+   background:url(https://www.lowes.ca/-/media/lowes/images/ideas-how-tos/ideas%20and%20inspiration/before%20and%20after%20classic%20white%20annuals%20and%20perennials/ct18-image5-1015x571.jpg?h=571&w=1015&la=en-CA&hash=5FF055F97ACF67A8F40F0AB999301C362F22C7C2) fixed 100% no-repeat;
+   background-size:cover;
 }
 .contact{
-  max-width:660px;
-  width:100%;
-  margin:auto;
-  text-align:center;
+   max-width:660px;
+   width:100%;
+   margin:auto;
+   text-align:center;
 }
 .contact h2{
-  font-size:25px;
-  font-weight: bolder;
-  text-transform:uppercase;
-  color:#1F2021;
+   font-size:25px;
+   font-weight: bolder;
+   text-transform:uppercase;
+   color:#1F2021;
 }
-
 #conteneur-footer {
   position: fixed;
   bottom: 0;
@@ -319,14 +310,12 @@ text-align:justify;
   color: #FFF;
   text-align: center;
 }
-
 .footer a {
   color: #FFF;
   text-decoration: none;
   padding-top: 50px;
   transition: 0.4s;
 }
-
 .footer a:hover {
   color: #DDD;
   text-decoration: none;
@@ -341,28 +330,25 @@ text-align:justify;
         top: 0px;
         left: 0px;
         transform: none;
-    }
-  
+  }
     .gallery-item {
         flex-basis: 49.80%;
         margin-bottom: 3px;
-    } 
+  } 
 }
 
 @media (max-width: 720px) {
-
     .lightbox-content {
         width: 80%;
         height: 60%;
         margin: 15% auto;
-    }
+  }
     .profil-photo {
         margin-left:20px;
-    }
+  }
     .profil-text {
         font-size: 22px;
-    }    
-  
+  }    
    .menu a{
          font-size: 30px;
   }
@@ -375,11 +361,11 @@ text-align:justify;
     .lightbox-content {
         width: 90%;
         margin: 20% auto;
-    }
+   }
     .profil-photo {
         margin-left:20px;
-    }
+   }
     .profil-text {
         font-size: 22px;
-    }
+   }
 }
