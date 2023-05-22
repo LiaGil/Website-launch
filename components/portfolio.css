@@ -1,0 +1,74 @@
+#conteneur-portfolio{
+  padding:100px 0px;
+  background-color:#EEE;
+}
+.portfolio{
+  max-width:960px;
+  width:100%;
+  margin:auto;
+  text-align:center;
+}
+.portfolio h2{
+  padding-bottom:50px;
+  font-size:25px;
+  font-weight:100;
+  text-transform:uppercase;
+}
+.conteneur-portfolio h2{
+  padding-bottom:100px;
+  font-size:80px;
+  color:#000;
+  text-align:center;
+}
+.conteneur-miniature-left{
+  box-shadow:0 0 20px 1px rgba(0,0,0,0.25);
+  transition:.4s;
+  width:47.5%;
+  margin-right:2.5%;
+  float:left;
+}
+.conteneur-miniature-right{
+  box-shadow:0 0 20px 1px rgba(0,0,0,0.25);
+  transition:.4s;
+  width:47.5%;
+  margin-left:2.5%;
+  float:left;
+}
+.miniature-portfolio{
+  width:100%;
+  height:250px;
+}
+.oneport{      
+  background:url(https://64.media.tumblr.com/56dfc513aeccd546772526b86c486cf1/tumblr_oywgvka4hk1qly6cno1_1280.pnj);
+  background-size:cover;
+  background-position:center;
+}
+.twoport{
+  background:url(https://img1.wsimg.com/isteam/ip/7c70ad14-8f47-4f92-8fc9-969ed986407e/Screenshot_20220614-093406_Instagram.jpg);
+  background-size:cover;
+  background-position:center;
+}
+.text-miniature{
+  padding:15px 30px 15px 15px;
+}
+.text-miniature h3{
+  font-size:25px;
+  padding-bottom:10px;
+  font-weight:100;
+}
+.text-miniature h4{
+  font-size:18px;
+  color:#666;
+  line-height:25px;
+  font-weight:100;
+}
+.text-miniature h5{
+  font-size:15px;
+  color:#999;
+  line-height:20px;
+  font-weight:100;
+}
+.conteneur-miniature-one:hover{
+  box-shadow:0 0 20px 1px rgba(0,0,0,0.75);
+  transition:.4s;
+}
